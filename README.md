@@ -1,26 +1,45 @@
-🧫 AMR Risk Guard
-An AI-powered RAG application using Gemini 3.5 to evaluate Antimicrobial Resistance (AMR) risks based on official WHO and ICMR guidelines.
+# 🧫 AMR RISK GUARD
+> **An AI-powered RAG application using Gemini to evaluate Antimicrobial Resistance (AMR) risks based on official WHO and ICMR guidelines.**
 
-🚀 The Problem: Antimicrobial Resistance (AMR)
-Antimicrobial Resistance is one of the top global public health threats facing humanity. It occurs when bacteria and viruses evolve to resist the medications used to cure them, largely driven by the misuse and overuse of antibiotics (e.g., taking antibiotics for viral infections like the common cold, or stopping medication early).
+### 🚀 [CLICK HERE TO LAUNCH THE LIVE APP](https://amr-risk-guard-ccz9kjzknzw2qfuz29j4a4.streamlit.app/)
 
-💡 The Solution
-AMR Risk Guard is an AI-driven educational framework built to combat antibiotic misinformation. By utilizing a Retrieval-Augmented Generation (RAG) architecture, the app grounds its responses strictly in verified public health datasets (PDFs from the WHO, CDC, and ICMR). It evaluates user queries, flags high-risk behaviors, and debunks dangerous medical myths in a safe, disclaimer-bound environment.
+---
 
-✨ Key Features
-💬 Dynamic Risk Evaluation Chat: Users can ask public health queries, and the Gemini 3.5 Flash model answers only using the verified context provided in the data folder.
+## 🌍 THE PROBLEM: AMR
+Antimicrobial Resistance is a critical global health threat. It occurs when pathogens evolve to resist medications, primarily driven by the misuse and overuse of antibiotics. 
 
-🔬 Myth vs. Fact Lab: An interactive accordion dashboard debunking critical antibiotic fallacies.
+## 💡 THE SOLUTION
+**AMR Risk Guard** combats medical misinformation. By utilizing a Retrieval-Augmented Generation (RAG) architecture, the app evaluates user queries and flags high-risk behaviors using *only* verified public health datasets.
 
-🛡️ Regulatory Guardrails: Custom AI system instructions prevent the model from issuing clinical diagnoses or hallucinating beyond the provided datasets.
+---
 
-🎨 Bio-Tech Dark UI: A custom, fully responsive Streamlit interface designed for maximum readability and user engagement.
+## ✨ KEY FEATURES
 
-🛠️ Tech Stack
-Frontend: Streamlit (Python)
+* **💬 Dynamic Risk Evaluation** 
+  Gemini 3.5 Flash answers health queries using strictly verified medical data.
+* **🔬 Myth vs. Fact Lab** 
+  An interactive dashboard debunking critical antibiotic fallacies.
+* **🛡️ Regulatory Guardrails** 
+  Strict AI system instructions prevent clinical diagnoses or hallucinated data.
+* **🎨 Bio-Tech UI** 
+  A custom, responsive Streamlit interface built for clarity and engagement.
 
-LLM Engine: Google Gemini API (gemini-3.5-flash)
+---
 
-RAG Data Processing: pypdf (for real-time context extraction from official guideline PDFs)
+## 🛠️ TECH STACK
 
-Deployment: Streamlit Community Cloud
+* **Frontend:** Streamlit (Python)
+* **LLM Engine:** Google Gemini API (`gemini-3.5-flash`)
+* **RAG Processing:** `pypdf` (Real-time extraction from official PDFs)
+* **Deployment:** Streamlit Community Cloud
+
+---
+
+## 💻 LOCAL QUICK START
+
+Run this project on your own machine:
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/your-username/amr-risk-guard.git](https://github.com/your-username/amr-risk-guard.git)
+cd amr-risk-guard
